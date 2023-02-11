@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&family=Ubuntu:ital@1&family=Zeyada&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: url(bg.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container{
+    /* border: 2px solid red; */
+    color: #fcfcfc;;
+    position: absolute;
+    top: 32%;
+    left: 35%;
+}
+
+.container h1{
+    font-size: 40px;
+    border-bottom: 5px solid purple;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.box{
+    width: 100%;
+    /* border: 2px solid blueviolet; */
+    margin-bottom: 10px;
+    border-bottom: 2px solid purple;
+}
+
+.box i{
+    width: 25px;
+    text-align: center;
+    color: rgb(226, 163, 163);
+
+}
+.box input{
+    background: none;
+    width: 75%;
+    font-size: 15px;
+    margin: 5px 0px;
+    padding: 5px;
+    border: none;
+    outline: none;
+    color: white;
+}
+
+.btn{
+    cursor: pointer;
+    margin: 10px 20px;
+    width: 30%;
+    border: 2px solid purple;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 15px;
+    background: none;
+    color: white;
+}
+
+.btn:hover{
+    color: purple;
+    background: white;
+    opacity: 0.8;
+    font-weight: bold;
+}
